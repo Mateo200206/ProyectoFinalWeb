@@ -1,0 +1,22 @@
+<div class="layout">
+    <header class="navbar-conteiner">
+        <div class="home-button-container">
+            <a class="links-button" >
+                <svg>
+
+                </svg>
+            </a>
+        </div>
+        <div class="title-container">
+            <p>Restaurants</p>        
+        </div>
+        <div class="login-container"> 
+            <button class="button" (click)="mostrarLoginModal()">
+                <p> Login </p>
+            </button>  
+        </div>
+    </header>
+    <main class="content">
+        <router-outlet/>
+    </main>
+</div>
